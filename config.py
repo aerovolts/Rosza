@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 """
 Configuration information for RoszaBot. Connects via the Twitch IRC interface.
 

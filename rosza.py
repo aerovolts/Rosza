@@ -52,7 +52,7 @@ def main():
             if "!time" in message:
                 utilities.chat(irc, "It is currently " + time.strftime("%I:%M %p %Z on %A, %B %d, %Y."))
             if "!twitter" in message:
-                utilities.chat(irc, "Check me out on Twitter: https://twitter.com/aerovolts !")
+                utilities.chat(irc, "Check me out on Twitter: TWITTER_LINK_HERE !")
             if "!help" in message:
                 utilities.chat(irc, "Command List: " + ", ".join(command_list))
             if "!kill" in message:
